@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        h1{
+            color: rgb(77, 92, 224);
+        }
+        body{
+            /* background-color: rgb(99, 196, 196); */
+            font-family: monospace;
+            font-size: 15px;
+            margin: 0;
+            padding:0;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            border-radius: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center; font-family:sans-serif;">Welcome</h1>
+    </header>
+    <table border="1" width="100%">
+        <caption><b>TIME TABLE FOR UPPER PRIMARY</b>
+        </caption>
+        <thead style="background-color: red;">
+            <tr class="right" >
+                <th>Time</th>
+                <th></th>
+                <td>7:30 - 8:00</td>
+                <td>8:00 - 8:30</td>
+                <td>8:30 - 9:00</td>
+                <td>9:00 - 9:30</td>
+                <td>9:30 - 10:00</td>
+                <td>10:00 - 10:30</td>
+                <td>10:30 - 11:00</td>
+                <td>11:00 - 11:30</td>
+
+            </tr>
+            <tr>
+                <th>Duration</th>
+                <th></th>
+                <td>30m</td>
+                <td>30m</td>
+                <td>30m</td>
+                <td>30m</td>
+                <td>30m</td>
+                <td>30m</td>
+                <td>30m</td>
+                <td>30m</td>
+            </tr>
+            <tr>
+                <th>Period</th>
+                <th></th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+            </tr>
+        </thead>
+        <tbody>
+            <div class="mon">
+
+                <!-- Monday -->
+                <tr>
+                    <th rowspan="4">Monday</th>
+                <tr>
+                    <th>4</th>
+                    <th rowspan="20" style="writing-mode: vertical-lr;">Assembly & registraion in class</th>
+                    <th colspan="2">Math</th>
+                    <th colspan="2">Akuapem Twi</th>
+                    <th rowspan="20">Break</th>
+                    <th rowspan="3">Library</th>
+                    <th colspan="1">Science</th>
+                    
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th colspan="2">History</th>
+                    <th colspan="2">Math</th>
+                    <th colspan="1">Science</th>               
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th colspan="2">Math</th>
+                    <th colspan="2">English</th>
+                    <th>Science</th>               
+                </tr>
+            </div>
+
+            <div class="tue">
+
+                <!-- Tuesday -->
+                <tr>
+                    <th rowspan="4">Tuesday</th>
+                <tr>
+                    <th>4</th>
+                   
+                    <th colspan="2">Math</th>
+                    <th colspan="2">Science</th>             
+                    <th>Computing</th>
+                    <th colspan="1">OWAP</th>
+                    
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th colspan="2">Hisotry</th>
+                    <th colspan="2">Akuapem Twi</th>
+                    <th colspan="1">Science</th> 
+                    <th>OWAP</th>           
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th colspan="2">English</th>
+                    <th colspan="2">Math</th>
+                    <th>RME</th>               
+                    <th>OWAP</th>
+                </tr>
+            </div>
+            
+            <div class="wed">
+
+                <!-- Wednessday -->
+                <tr>
+                    <th rowspan="4">Wednessday</th>
+                <tr>
+                    <th>4</th>
+                    
+                    <th >French</th>
+                    <th colspan="2">English</th>
+                    <th >Computing</th>
+                    <th>Twi</th>             
+                    <th>Math</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>Twi</th>
+                    <th colspan="2">French</th>
+                    <th>English</th> 
+                    <th>RME</th>              
+                    <th>Hisotry</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th colspan="2">Math</th>
+                    <th colspan="2">Twi</th> 
+                    <th>Computing</th> 
+                    <th>History</th>
+                </tr>
+            </div>
+            <div class="tues">
+
+                <!-- Thusday -->
+                <tr>
+                    <th rowspan="4">Tuesday</th>
+                <tr>
+                    <th>4</th>
+                   
+                    <th colspan="2">Arts</th>
+                    <th colspan="2">Science</th>             
+                    <th>Computing</th>
+                    <th colspan="1">OWAP</th>
+                    
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th colspan="2">Arts</th>
+                    <th colspan="2">Akuapem Twi</th>
+                    <th colspan="1">Science</th> 
+                    <th>OWAP</th>           
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th colspan="2">English</th>
+                    <th colspan="2">Math</th>
+                    <th>Twi</th>               
+                    <th>Math</th>
+                </tr>
+            </div>
+            <div class="fri">
+
+            </div>
+            <tr>
+                <th rowspan="4">Friday</th>
+            <tr>
+                <th>4</th>
+                
+                <th colspan="2">English</th>
+                <th colspan="2">Math</th>
+              
+                <th >RME</th>
+                <th colspan="1">Science</th>
+                
+            </tr>
+            <tr>
+                <th>5</th>
+                <th >English</th>
+                <th colspan="2">Twi</th>
+                <th >Science</th> 
+                <th>OWAP</th>              
+                <th colspan="2">Math</th>
+            </tr>
+            <tr>
+                <th>6</th>
+                <th colspan="1">Math</th>
+                <th colspan="2">Science</th> 
+                <th>French</th>              
+                <th>Math
+
+
+                </th>
+                <th>Science</th>
+            </tr>
+            <!-- Friday -->
+        </tbody>
+
+    </table>
+</body>
+
+</html>
